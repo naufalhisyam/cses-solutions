@@ -21,7 +21,7 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
-//        String input = InputUtils.readFileToString("solutions/1648_dynamic_range_sum_queries/input2.txt");
+//        String input = InputUtils.readFileToString("solutions/1648-dynamic-range-sum-queries/input1.txt");
 //        InputUtils.setInputFromString(input);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         pw = new PrintWriter(System.out);
