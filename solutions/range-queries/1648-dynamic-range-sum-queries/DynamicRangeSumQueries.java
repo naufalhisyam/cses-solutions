@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 // Dynamic Range Sum Queries
 // https://cses.fi/problemset/task/1648
 
-public class Main {
+public class DynamicRangeSumQueries {
     static PrintWriter pw;
 
     static int MAX_N = (int) 2e5;
@@ -21,8 +21,8 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
-//        String input = InputUtils.readFileToString("solutions/1648-dynamic-range-sum-queries/input1.txt");
-//        InputUtils.setInputFromString(input);
+        String input = InputUtils.readFileToString("solutions/range-queries/1648-dynamic-range-sum-queries/input1.txt");
+        InputUtils.setInputFromString(input);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         pw = new PrintWriter(System.out);
 
